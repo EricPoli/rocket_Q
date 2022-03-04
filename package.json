@@ -1,0 +1,20 @@
+{
+  "name": "web-questions",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar as perguntas anônimas de usuários, referentes á programação",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Eric Polini",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
